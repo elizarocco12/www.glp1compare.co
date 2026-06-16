@@ -3,9 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Weight Loss Compare UK 2026 | Compare GLP-1, Meal Plans, Slimming Clubs & Surgery Prices</title>
-<meta name="description" content="Compare UK weight loss options in 2026 — GLP-1 injections (Mounjaro & Wegovy), meal replacement plans, slimming clubs, apps and weight loss surgery. Find the cheapest prices updated weekly.">
+<title>Weight Loss Compare UK 2026 | Compare GLP-1, Meal Plans, Slimming Clubs & Surgery</title>
+<meta name="description" content="Compare all UK weight loss options in 2026 — GLP-1 injections (Mounjaro & Wegovy), meal replacement plans, slimming clubs, apps and bariatric surgery. Find the cheapest prices, updated weekly.">
+<meta name="keywords" content="weight loss comparison uk, weight loss compare uk, best weight loss programme uk 2026, cheapest weight loss uk, mounjaro vs slimming world, gastric sleeve cost uk, cambridge diet vs mounjaro, slimming world vs ww 2026, weight loss injections price uk, glp1 weight loss uk">
 <link rel="canonical" href="https://weightlosscompare.co">
+<meta property="og:title" content="Weight Loss Compare UK 2026 | All Options Compared">
+<meta property="og:description" content="Compare GLP-1 injections, meal plans, slimming clubs and surgery prices across all UK providers. Find the best weight loss option for you. Updated weekly.">
+<meta property="og:url" content="https://weightlosscompare.co">
+<meta property="og:type" content="website">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://weightlosscompare.co/#website","url":"https://weightlosscompare.co","name":"Weight Loss Compare UK","description":"The UK's leading independent weight loss price comparison — compare GLP-1 injections, meal plans, slimming clubs and bariatric surgery prices, updated weekly.","potentialAction":{"@type":"SearchAction","target":"https://weightlosscompare.co/?q={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"Organization","@id":"https://weightlosscompare.co/#organization","name":"Weight Loss Compare UK","url":"https://weightlosscompare.co","email":"info@weightlosscompare.co","description":"Independent UK price comparison for all weight loss methods including GLP-1 injections, meal replacement plans, slimming clubs and bariatric surgery. Prices updated weekly."},{"@type":"WebPage","@id":"https://weightlosscompare.co/#webpage","url":"https://weightlosscompare.co","name":"Weight Loss Compare UK 2026 | Compare All Weight Loss Options","isPartOf":{"@id":"https://weightlosscompare.co/#website"},"dateModified":"2026-06-15"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the best weight loss programme in the UK in 2026?","acceptedAnswer":{"@type":"Answer","text":"The best UK weight loss programme in 2026 depends on your budget and goals. GLP-1 injections (Mounjaro, Wegovy) produce the most weight loss — up to 22% body weight — but cost £133–£340/month. Slimming clubs (WW, Slimming World) are the most affordable at £11–£25/month. Surgery produces the most permanent results. Use our comparison tool to find the best option for you."}},{"@type":"Question","name":"What is the cheapest weight loss option in the UK?","acceptedAnswer":{"@type":"Answer","text":"The cheapest effective weight loss options in the UK are Slimming World and WW (Weight Watchers), from £11–£25 per month. Free options include the NHS Weight Loss Plan app and GP referrals to commercial programmes. GLP-1 injections start from £86.39/month (Wegovy 0.25mg, Medino)."}},{"@type":"Question","name":"How much does Mounjaro cost in the UK per month?","acceptedAnswer":{"@type":"Answer","text":"Mounjaro costs between £133.19 and £370 per month in the UK in 2026, depending on the dose and provider. The 2.5mg starting dose averages £169 per month. Use our weekly-updated comparison table to find the cheapest provider for your dose."}},{"@type":"Question","name":"How much does a gastric sleeve cost in the UK?","acceptedAnswer":{"@type":"Answer","text":"A private gastric sleeve costs £9,000–£14,000 in the UK in 2026. NHS gastric sleeve is available free for patients meeting eligibility criteria (typically BMI 40+, or 35+ with obesity-related health conditions). Private waiting times are a few weeks; NHS waiting times are typically 18–36 months."}},{"@type":"Question","name":"Is Mounjaro better than Slimming World for weight loss?","acceptedAnswer":{"@type":"Answer","text":"Mounjaro produces significantly more weight loss than Slimming World — approximately 22% body weight loss vs 5–8% for Slimming World over 12 months. However, Mounjaro costs £133–£285/month vs £15–£20/month for Slimming World. Many experts recommend using GLP-1 medications for rapid initial loss then transitioning to a slimming club for long-term maintenance."}},{"@type":"Question","name":"What is the fastest way to lose weight in the UK?","acceptedAnswer":{"@type":"Answer","text":"The fastest non-surgical weight loss in the UK in 2026 is Mounjaro (tirzepatide) at maximum dose, producing approximately 22.5% body weight loss over 72 weeks. Very low calorie diets (Cambridge Weight Plan, LighterLife) produce faster initial loss in the first 1–3 months. Bariatric surgery (gastric bypass) produces the most total weight loss long-term."}}]}]}</script>
 <style>
 :root {
   --primary:#0d9488; --primary-light:#f0fdfa; --primary-dark:#0f766e;
@@ -253,6 +259,31 @@ td.price.na{color:var(--gray-300);font-weight:400}
 .popup-box p{font-size:0.85rem;color:var(--gray-500);margin-bottom:1.25rem}
 .popup-close{background:var(--primary);color:#fff;border:none;border-radius:8px;padding:0.65rem 1.5rem;font-size:0.9rem;font-weight:600;cursor:pointer}
 
+/* CALCULATOR POPUP */
+#calcPopup{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.6);z-index:300;align-items:center;justify-content:center;padding:1rem}
+#calcPopup.show{display:flex}
+.calc-popup-box{background:#fff;border-radius:20px;padding:0;max-width:440px;width:100%;box-shadow:0 20px 60px rgba(0,0,0,0.25);overflow:hidden;position:relative}
+.calc-popup-header{background:linear-gradient(135deg,var(--primary),#0f766e);padding:1.5rem 1.5rem 1.25rem;color:#fff;text-align:center}
+.calc-popup-header h3{font-size:1.15rem;font-weight:700;margin-bottom:0.35rem}
+.calc-popup-header p{font-size:0.83rem;opacity:0.9;line-height:1.4}
+.calc-popup-body{padding:1.25rem 1.5rem 1.5rem}
+.calc-popup-features{display:grid;grid-template-columns:1fr 1fr;gap:0.5rem;margin-bottom:1.1rem}
+.calc-popup-feat{background:#f0fdf4;border-radius:8px;padding:0.5rem 0.65rem;font-size:0.77rem;color:#065f46;font-weight:500}
+.calc-popup-cta{display:block;width:100%;padding:0.8rem;background:var(--primary);color:#fff;border:none;border-radius:10px;font-size:0.95rem;font-weight:700;cursor:pointer;text-align:center;margin-bottom:0.65rem}
+.calc-popup-cta:hover{background:#0f766e}
+.calc-popup-skip{display:block;text-align:center;font-size:0.78rem;color:var(--gray-400);cursor:pointer;text-decoration:underline}
+.calc-popup-close{position:absolute;top:0.75rem;right:0.9rem;background:rgba(255,255,255,0.25);border:none;border-radius:50%;width:28px;height:28px;color:#fff;font-size:1rem;cursor:pointer;display:flex;align-items:center;justify-content:center;font-weight:700;line-height:1}
+
+/* CALCULATOR TAB */
+.calc-tab-wrap{padding:1.5rem 0}
+.calc-tab-intro{text-align:center;max-width:600px;margin:0 auto 1.5rem}
+.calc-tab-intro h2{font-size:1.3rem;font-weight:700;color:var(--gray-800);margin-bottom:0.5rem}
+.calc-tab-intro p{font-size:0.88rem;color:var(--gray-500);line-height:1.6}
+.calc-iframe-wrap{border-radius:16px;overflow:hidden;box-shadow:0 4px 24px rgba(0,0,0,0.08);border:1px solid var(--gray-200)}
+.calc-iframe-wrap iframe{display:block;width:100%;border:none}
+.calc-tab-link{display:block;text-align:center;font-size:0.76rem;color:var(--gray-400);margin-top:0.5rem}
+.calc-tab-link a{color:var(--primary)}
+
 /* FOOTER */
 footer{background:var(--gray-800);color:var(--gray-400);padding:1.5rem 1rem;margin-top:2rem}
 .footer-inner{max-width:1200px;margin:0 auto;font-size:0.78rem;line-height:1.6}
@@ -301,8 +332,8 @@ footer{background:var(--gray-800);color:var(--gray-400);padding:1.5rem 1rem;marg
     <div class="logo">
       <div class="logo-icon">⚖️</div>
       <div class="logo-text">
-        <h1>Weight Loss Compare UK</h1>
-        <p>weightlosscompare.co · All Options · Updated Weekly</p>
+        <h1>GLP-1 Compare UK</h1>
+        <p>glp1compare.co · Mounjaro &amp; Wegovy Compared · Updated Weekly</p>
       </div>
     </div>
     <div class="header-badges">
@@ -316,12 +347,12 @@ footer{background:var(--gray-800);color:var(--gray-400);padding:1.5rem 1rem;marg
 <div class="hero-strip">
   <div class="hero-inner">
     <div>
-      <div class="hero-title">Find the <span>Cheapest Way</span> to Lose Weight in the UK</div>
-      <div class="hero-sub">GLP-1 injections · Meal replacement plans · Slimming clubs · Weight loss surgery — all compared</div>
+      <div class="hero-title">Compare <span>UK GLP-1 Injection</span> Prices</div>
+      <div class="hero-sub">Find the cheapest Mounjaro (tirzepatide) and Wegovy (semaglutide) prices across 15+ UK providers — updated every Monday</div>
     </div>
     <div class="stat-grid">
-      <div class="stat-box"><div class="stat-num">30+</div><div class="stat-label">Providers</div></div>
-      <div class="stat-box"><div class="stat-num">4</div><div class="stat-label">Methods</div></div>
+      <div class="stat-box"><div class="stat-num">15+</div><div class="stat-label">Providers</div></div>
+      <div class="stat-box"><div class="stat-num">2</div><div class="stat-label">GLP-1 Drugs</div></div>
       <div class="stat-box"><div class="stat-num">Weekly</div><div class="stat-label">Updates</div></div>
     </div>
   </div>
@@ -329,11 +360,11 @@ footer{background:var(--gray-800);color:var(--gray-400);padding:1.5rem 1rem;marg
 
 <div class="stats-bar">
   <div class="stats-bar-inner">
-    <div class="stat-item"><span>💉</span><span>Cheapest Mounjaro 2.5mg: <strong>£139 (Slinic)</strong></span></div>
-    <div class="stat-item"><span>💊</span><span>Cheapest Wegovy 0.25mg: <strong>£99 (Multiple)</strong></span></div>
-    <div class="stat-item"><span>🍃</span><span>Meal plans from <strong>£2.50/day</strong></span></div>
-    <div class="stat-item"><span>🏥</span><span>Surgery from <strong>£3,000 (balloon)</strong></span></div>
-    <div class="stat-item"><span>🤝</span><span>WW from <strong>£10.95/mo</strong></span></div>
+    <div class="stat-item"><span>💉</span><span>Cheapest Mounjaro 2.5mg: <strong>£133.19 (Medino)</strong></span></div>
+    <div class="stat-item"><span>💊</span><span>Cheapest Wegovy 0.25mg: <strong>£86.39 (Medino)</strong></span></div>
+    <div class="stat-item"><span>📉</span><span>Most expensive Mounjaro 15mg: <strong>£370 (Superdrug)</strong></span></div>
+    <div class="stat-item"><span>💰</span><span>Max saving vs most expensive: <strong>~£237/month</strong></span></div>
+    <div class="stat-item"><span>🔄</span><span>Prices updated: <strong>June 2026</strong></span></div>
   </div>
 </div>
 
@@ -348,6 +379,7 @@ footer{background:var(--gray-800);color:var(--gray-400);padding:1.5rem 1rem;marg
     <button class="tab-btn" onclick="switchTab('clubs',this)">🤝 Slimming Clubs &amp; Apps</button>
     <button class="tab-btn" onclick="switchTab('surgery',this)">🏥 Weight Loss Surgery</button>
     <button class="tab-btn" onclick="switchTab('referrals',this)">🎁 Referral &amp; Welcome Offers</button>
+    <button class="tab-btn" onclick="switchTab('calc',this)">🧮 Cost Calculator</button>
     <button class="tab-btn" onclick="switchTab('blog',this);renderBlog()">📝 Blog &amp; Guides</button>
   </div>
 </div>
@@ -451,6 +483,19 @@ footer{background:var(--gray-800);color:var(--gray-400);padding:1.5rem 1rem;marg
   <div class="referral-grid" id="referralGrid"></div>
 </div>
 
+<div id="tab-calc" class="section">
+  <div class="calc-tab-wrap">
+    <div class="calc-tab-intro">
+      <h2>🧮 Find Your Perfect GLP-1 Match</h2>
+      <p>Answer 3 quick questions — get a personalised cost estimate and timeline for Mounjaro, Wegovy and every other UK weight loss option, ranked by what's right for you.</p>
+    </div>
+    <div class="calc-iframe-wrap">
+      <iframe src="./calculator.html" height="820" title="UK Weight Loss Cost Calculator" loading="lazy"></iframe>
+    </div>
+    <div class="calc-tab-link"><a href="./calculator.html" target="_blank">Open full-screen ↗</a> · Free to embed on your website</div>
+  </div>
+</div>
+
 <div id="tab-blog" class="section">
   <div class="section-head">
     <h2>📝 Weight Loss Guides &amp; Comparisons</h2>
@@ -479,6 +524,26 @@ footer{background:var(--gray-800);color:var(--gray-400);padding:1.5rem 1rem;marg
     <h3>You're subscribed!</h3>
     <p>We'll send you the best UK weight loss prices every Monday. Check your inbox to confirm.</p>
     <button class="popup-close" onclick="closePopup()">Great, thanks!</button>
+  </div>
+</div>
+
+<div id="calcPopup">
+  <div class="calc-popup-box">
+    <button class="calc-popup-close" onclick="closeCalcPopup()" aria-label="Close">✕</button>
+    <div class="calc-popup-header">
+      <h3>🧮 What's the cheapest way for <em>you</em> to lose weight?</h3>
+      <p>Answer 3 quick questions — get a personalised cost estimate and timeline</p>
+    </div>
+    <div class="calc-popup-body">
+      <div class="calc-popup-features">
+        <div class="calc-popup-feat">💰 Real UK prices</div>
+        <div class="calc-popup-feat">📅 Months to goal</div>
+        <div class="calc-popup-feat">✅ Eligibility check</div>
+        <div class="calc-popup-feat">💉 GLP-1 vs all options</div>
+      </div>
+      <button class="calc-popup-cta" onclick="openCalcTab()">Take the free quiz →</button>
+      <span class="calc-popup-skip" onclick="closeCalcPopup()">No thanks, just browsing</span>
+    </div>
   </div>
 </div>
 
@@ -1122,6 +1187,625 @@ const BLOGS=[
 <li><strong>BMI 35+ and failed other methods:</strong> Consult your GP about a Tier 3 referral and whether NHS or private bariatric surgery is appropriate.</li>
 <li><strong>BMI 40+ and significant health conditions:</strong> Prioritise a GP referral for NHS bariatric surgery consideration — the results are unmatched and the NHS pathway is free.</li>
 </ul>
+`},
+{title:'Mounjaro vs Ozempic UK 2026: Tirzepatide vs Semaglutide — Which Is Better?',category:'Comparison',catClass:'cat-blue',emoji:'🆚',bgGrad:'linear-gradient(135deg,#1e3a5f,#2563eb)',date:'June 2026',readTime:'10 min read',excerpt:'Mounjaro and Ozempic both belong to the GLP-1 family — but they are very different drugs with different licences, doses and weight loss results. We break down the key differences for UK patients.',content:`
+<p>Mounjaro (tirzepatide) and Ozempic (semaglutide 1mg) are both weekly injections that act on GLP-1 receptors — but they are not the same drug and are not licensed for the same purpose in the UK. Understanding the differences is essential before choosing which to pursue with your prescriber.</p>
+<h2>The Most Important Difference: What Are They Licensed For?</h2>
+<ul>
+<li><strong>Mounjaro (tirzepatide)</strong> — licensed in the UK for both type 2 diabetes management AND weight management. Dual GIP/GLP-1 agonist.</li>
+<li><strong>Ozempic (semaglutide 1mg)</strong> — licensed in the UK for type 2 diabetes ONLY. Not licensed for weight loss. Prescribing Ozempic for weight loss is off-label.</li>
+<li><strong>Wegovy (semaglutide 2.4mg)</strong> — the correct weight loss version of semaglutide. Higher dose, licensed specifically for weight management.</li>
+</ul>
+<p>Many UK patients confuse Ozempic and Wegovy because they contain the same active ingredient. The difference is dose and licence. Wegovy goes up to 2.4mg for weight loss; Ozempic stays at 0.5–1mg for diabetes. UK prescribers should prescribe Wegovy (not Ozempic) for weight management.</p>
+<h2>Head-to-Head Comparison</h2>
+<table>
+<tr><th>Factor</th><th>Mounjaro (tirzepatide)</th><th>Ozempic (semaglutide 1mg)</th></tr>
+<tr><td>Active ingredient</td><td>Tirzepatide</td><td>Semaglutide</td></tr>
+<tr><td>Mechanism</td><td>Dual GIP + GLP-1 agonist</td><td>GLP-1 agonist only</td></tr>
+<tr><td>UK licence (weight loss)</td><td>Yes ✅</td><td>No ❌ (off-label)</td></tr>
+<tr><td>UK licence (type 2 diabetes)</td><td>Yes ✅</td><td>Yes ✅</td></tr>
+<tr><td>Dose range</td><td>2.5mg–15mg weekly</td><td>0.25mg–1mg weekly</td></tr>
+<tr><td>Average weight loss (trial data)</td><td>~22.5% body weight (15mg, SURMOUNT-1)</td><td>~6–7% body weight (1mg, SUSTAIN-6)</td></tr>
+<tr><td>Starting UK price</td><td>From £133.19/mo (Medino)</td><td>~£100–£160/mo (private, off-label)</td></tr>
+<tr><td>Injection frequency</td><td>Once weekly</td><td>Once weekly</td></tr>
+</table>
+<h2>Why Mounjaro Produces More Weight Loss Than Ozempic</h2>
+<p>Mounjaro works on two receptors — GLP-1 AND GIP (glucose-dependent insulinotropic polypeptide). This dual action creates a more powerful appetite-suppressing and metabolic effect than semaglutide's single GLP-1 action alone. In head-to-head data from the SURMOUNT-5 trial (2025), Mounjaro at maximum dose outperformed Wegovy (the proper weight loss version of semaglutide) by approximately 47% more weight loss — 20.2% vs 13.7% body weight lost. The gap between Mounjaro and Ozempic (which uses a lower dose of semaglutide) is even wider.</p>
+<h2>Which Should You Choose?</h2>
+<table>
+<tr><th>Your situation</th><th>Best choice</th><th>Why</th></tr>
+<tr><td>Want maximum weight loss, no diabetes</td><td>Mounjaro</td><td>Best clinical efficacy; licensed for weight loss</td></tr>
+<tr><td>Budget-conscious, weight management goal</td><td>Wegovy (not Ozempic)</td><td>Licensed, cheaper than Mounjaro at most doses</td></tr>
+<tr><td>Type 2 diabetes + overweight</td><td>Mounjaro</td><td>Dual benefit: licensed for both conditions</td></tr>
+<tr><td>Already on Ozempic for diabetes</td><td>Discuss with prescriber</td><td>Mounjaro may offer better weight outcomes; ask your diabetes team</td></tr>
+</table>
+<h2>Side Effects: Are They Different?</h2>
+<p>Both medications have similar GI side effects, particularly in the first few weeks:</p>
+<ul>
+<li>Common to both: nausea, vomiting, diarrhoea, constipation, reduced appetite, injection site reactions</li>
+<li>Usually improves after 4–8 weeks as the body adjusts to the dose</li>
+<li>Rare but serious (both): pancreatitis, gallbladder problems, allergic reactions</li>
+</ul>
+<h2>Cost Comparison in the UK (June 2026)</h2>
+<table>
+<tr><th>Medication</th><th>Cheapest starting dose</th><th>Maintenance dose cost</th></tr>
+<tr><td>Mounjaro (tirzepatide)</td><td>£133.19/mo — Medino, 2.5mg</td><td>£242.99–£287.99/mo (10–15mg)</td></tr>
+<tr><td>Wegovy (semaglutide)</td><td>£86.39/mo — Medino, 0.25mg</td><td>£186–£207/mo (2.4mg)</td></tr>
+<tr><td>Ozempic (off-label, private)</td><td>~£100–£160/mo (1mg)</td><td>~£100–£160/mo (single dose)</td></tr>
+</table>
+<blockquote>Always consult a UK-registered prescriber before starting any GLP-1 medication. This comparison is for informational purposes only and does not constitute medical advice.</blockquote>
+`},
+{title:'How to Get the Cheapest Mounjaro in the UK 2026: 9 Money-Saving Tips',category:'Price Guide',catClass:'cat-teal',emoji:'💸',bgGrad:'linear-gradient(135deg,#042f2e,#0d9488)',date:'June 2026',readTime:'9 min read',excerpt:'Mounjaro prices vary by over £100 per month between UK providers. Here are 9 practical ways to reduce the cost of your Mounjaro prescription in 2026 — from provider switching to dose strategies.',content:`
+<p>With Mounjaro prices ranging from £133.19 to over £370 per month across UK providers in 2026, where you buy matters enormously. Over a full year, choosing the cheapest provider for your dose could save you over £1,200. Here are 9 practical strategies to reduce your Mounjaro costs.</p>
+<h2>1. Always Compare Prices Before Ordering</h2>
+<p>The single biggest saving comes from simply comparing prices across providers. Our weekly-updated comparison table above shows live prices from 15+ UK pharmacies — the cheapest Mounjaro 2.5mg is currently £133.19 at Medino vs £195–£215 at the most expensive providers. That is an £82/month difference at the starting dose alone.</p>
+<h2>2. Use the Cheapest Provider for Your Specific Dose</h2>
+<p>The cheapest provider for 2.5mg is not always the cheapest for 10mg or 15mg. Check the full table sorted by your current dose, not just the headline entry price. Some providers are competitively priced at low doses but expensive at higher doses.</p>
+<h2>3. Switch Providers — It's Straightforward</h2>
+<p>Many people assume they are locked into their first provider. You are not. Switching is simple: complete a new online consultation at your chosen provider, provide your dose history, and your new prescription is issued and delivered. No referral letter or medical records needed in most cases.</p>
+<h2>4. Watch for Introductory Offers and Discount Codes</h2>
+<p>Several UK Mounjaro providers run promotional pricing for new patients. These can include discounted first months, free consultations, or bundled accessories (needles, sharps bin). Check provider websites and reputable discount code sites regularly. However, always verify the ongoing monthly price — some providers attract with a cheap first month then charge significantly more.</p>
+<h2>5. Consider Whether You Need the Maximum Dose</h2>
+<p>The highest doses (12.5mg and 15mg) produce the most weight loss but cost the most — up to £370/month. Some patients achieve excellent results at lower doses (7.5mg or 10mg) and maintain there rather than escalating further. Discuss with your prescriber whether dose escalation is clinically necessary for you, or whether a lower maintenance dose is appropriate.</p>
+<h2>6. Check If You Qualify for NHS Prescribing</h2>
+<p>For patients with type 2 diabetes, Mounjaro may be available on NHS prescription (standard NHS prescription charge of £9.90 in England). If you have type 2 diabetes and are not currently receiving Mounjaro on the NHS, ask your GP or diabetes team. NHS access for weight management alone is limited but expanding — enquire about Tier 3 specialist weight management referral if you meet eligibility criteria.</p>
+<h2>7. Look at the True All-In Cost, Not Just the Headline Price</h2>
+<p>Some providers charge separately for: consultation fees (£10–£30), needles and alcohol wipes (£5–£10/month), sharps bins (£3–£5), and delivery (£5–£10). A provider charging £149 with all these added can be more expensive than one charging £165 with everything included. Always check what is included in the quoted price.</p>
+<h2>8. Consider Subscription vs Pay-as-You-Go</h2>
+<p>Some providers offer subscription pricing with a discount vs pay-as-you-go. If you are committed to the medication long-term, subscriptions can save 10–20% per month. If you are still assessing whether Mounjaro is right for you, pay-as-you-go gives more flexibility to switch or stop.</p>
+<h2>9. Consider Whether Wegovy Might Be More Cost-Effective for You</h2>
+<p>Wegovy (semaglutide) is significantly cheaper than Mounjaro — starting from £86.39/month vs £133.19 for Mounjaro. Wegovy produces slightly less average weight loss (approximately 15% vs 22.5%), but for many patients the results are still excellent and the cost saving is substantial. Over 12 months, choosing Wegovy over Mounjaro could save £550–£2,400 depending on the doses used. Discuss with your prescriber which medication is most appropriate for your situation.</p>
+<h2>Current Cheapest Mounjaro Prices by Dose (June 2026)</h2>
+<table>
+<tr><th>Dose</th><th>Cheapest Provider</th><th>Price</th><th>2nd Cheapest</th><th>Price</th></tr>
+<tr><td>2.5mg</td><td>Medino</td><td>£133.19</td><td>Slinic</td><td>£139</td></tr>
+<tr><td>5mg</td><td>Medino</td><td>£152.99</td><td>Cloud Pharmacy</td><td>£174.99</td></tr>
+<tr><td>7.5mg</td><td>Medino</td><td>£224.99</td><td>Slinic</td><td>£225</td></tr>
+<tr><td>10mg</td><td>Medino</td><td>£242.99</td><td>Cloud Pharmacy</td><td>£259.99</td></tr>
+<tr><td>12.5mg</td><td>Medino</td><td>£269.99</td><td>Cloud Pharmacy</td><td>£274.99</td></tr>
+<tr><td>15mg</td><td>Medino</td><td>£287.99</td><td>Cloud Pharmacy</td><td>£294.99</td></tr>
+</table>
+<p>Prices correct as of June 2026 and updated weekly on this comparison tool.</p>
+`},
+{title:'Mounjaro Side Effects UK 2026: Complete Guide to Tirzepatide Side Effects',category:'Patient Guide',catClass:'cat-purple',emoji:'💊',bgGrad:'linear-gradient(135deg,#1a0a2e,#7c3aed)',date:'June 2026',readTime:'11 min read',excerpt:'A comprehensive, honest guide to Mounjaro side effects in the UK — what to expect, when they typically improve, which are serious, and how to manage them effectively.',content:`
+<p>Mounjaro (tirzepatide) is a highly effective GLP-1/GIP receptor agonist for weight management, but like all prescription medications it comes with side effects. Understanding what to expect — and knowing which symptoms are normal vs serious — makes the first few weeks significantly easier to navigate.</p>
+<h2>Common Mounjaro Side Effects (Most People Experience These)</h2>
+<table>
+<tr><th>Side effect</th><th>How common?</th><th>When does it typically peak?</th><th>When does it improve?</th></tr>
+<tr><td>Nausea</td><td>Very common (~40–45%)</td><td>First 1–2 weeks on each new dose</td><td>Usually improves within 4–8 weeks</td></tr>
+<tr><td>Diarrhoea</td><td>Common (~25–30%)</td><td>First 2 weeks on each dose</td><td>Usually settles within 2–4 weeks</td></tr>
+<tr><td>Reduced appetite</td><td>Very common (~35–40%)</td><td>Ongoing — this is the intended effect</td><td>Sustained (desired effect)</td></tr>
+<tr><td>Vomiting</td><td>Common (~20–25%)</td><td>First 1–2 weeks on each dose</td><td>Usually improves within 4–8 weeks</td></tr>
+<tr><td>Constipation</td><td>Common (~15–20%)</td><td>Can develop at any stage</td><td>Often responds to increased hydration and fibre</td></tr>
+<tr><td>Injection site reactions</td><td>Common (~5–10%)</td><td>Any time</td><td>Rotate injection sites; usually mild</td></tr>
+<tr><td>Fatigue</td><td>Less common (~10–15%)</td><td>First few weeks on each dose</td><td>Usually improves</td></tr>
+<tr><td>Belching / acid reflux</td><td>Less common (~8–12%)</td><td>First few weeks</td><td>Often responds to dietary adjustments</td></tr>
+</table>
+<h2>Why Side Effects Are Worst When Starting or Increasing Dose</h2>
+<p>Mounjaro works by slowing gastric emptying (how quickly food moves from the stomach to the small intestine). When you start a new dose, your digestive system needs time to adapt to this change. Most people find that GI side effects peak in the first 1–2 weeks on a new dose and then significantly improve as the body adjusts. This is why the dose escalation protocol starts at 2.5mg and increases slowly every 4 weeks.</p>
+<h2>Practical Tips to Manage Nausea on Mounjaro</h2>
+<ul>
+<li><strong>Eat smaller portions</strong> — your stomach empties more slowly, so large meals cause more nausea</li>
+<li><strong>Eat slowly</strong> — give your body time to signal fullness</li>
+<li><strong>Avoid fatty, spicy or very rich foods</strong> — these are harder to process with delayed gastric emptying</li>
+<li><strong>Stay upright after eating</strong> — avoid lying down for at least 1–2 hours after meals</li>
+<li><strong>Time your injection</strong> — some people find injecting before bed means the worst nausea passes overnight</li>
+<li><strong>Stay well hydrated</strong> — drinking water between meals (not with meals) helps</li>
+<li><strong>Try ginger</strong> — ginger tea or ginger tablets can help with nausea</li>
+</ul>
+<h2>Serious Side Effects: Know When to Seek Help</h2>
+<p>The following side effects are rare but require prompt medical attention:</p>
+<table>
+<tr><th>Serious side effect</th><th>Symptoms to watch for</th><th>Action</th></tr>
+<tr><td>Pancreatitis</td><td>Severe abdominal pain (especially upper/middle abdomen) that may radiate to the back; nausea and vomiting</td><td>Stop medication, seek urgent medical care</td></tr>
+<tr><td>Gallbladder problems</td><td>Severe pain in upper right abdomen, especially after eating; fever; jaundice</td><td>Seek urgent medical care</td></tr>
+<tr><td>Severe allergic reaction</td><td>Difficulty breathing, swelling of face/lips/tongue/throat, rapid heartbeat</td><td>Call 999 immediately</td></tr>
+<tr><td>Vision changes</td><td>Blurred vision, sudden vision loss (particularly in people with diabetes)</td><td>Seek prompt medical review</td></tr>
+<tr><td>Heart rate increase</td><td>Persistent racing heart rate, palpitations</td><td>Contact your prescriber</td></tr>
+</table>
+<h2>Who Should Not Take Mounjaro?</h2>
+<ul>
+<li>Personal or family history of medullary thyroid cancer (MTC)</li>
+<li>Multiple Endocrine Neoplasia syndrome type 2 (MEN2)</li>
+<li>Current pregnancy or breastfeeding</li>
+<li>Severe gastrointestinal disease (e.g. gastroparesis)</li>
+<li>History of pancreatitis</li>
+</ul>
+<h2>When Side Effects Mean You Should Pause or Stop</h2>
+<p>Not everyone's body tolerates Mounjaro. Signs that you should contact your prescriber:</p>
+<ul>
+<li>Persistent vomiting that prevents you from keeping food or water down for more than 24 hours</li>
+<li>Side effects that are not improving after 6–8 weeks at the same dose</li>
+<li>Any of the serious side effects listed above</li>
+<li>Significant muscle weakness or unexplained fatigue</li>
+</ul>
+<p>Your prescriber may recommend slowing down the dose escalation, staying at a lower dose longer, or switching to Wegovy (semaglutide) which some patients tolerate better.</p>
+<blockquote>⚠️ This guide is for informational purposes only. Always consult your prescribing clinician before making any changes to your medication.</blockquote>
+`},
+{title:'How to Get Mounjaro on the NHS UK 2026: Eligibility, Tier 3 & Waiting Times',category:'NHS Guide',catClass:'cat-teal',emoji:'🏥',bgGrad:'linear-gradient(135deg,#003366,#0d9488)',date:'June 2026',readTime:'10 min read',excerpt:'Can you get Mounjaro free on the NHS? A complete 2026 guide to NHS Mounjaro eligibility — for diabetes patients and weight management — plus how to access Tier 3 services and realistic waiting times.',content:`
+<p>Mounjaro (tirzepatide) is available on the NHS in the UK in 2026 — but access is more limited than many patients realise, and the pathway depends significantly on whether you have type 2 diabetes. Here is a complete guide to what is currently available, who qualifies, and how to access it.</p>
+<h2>Route 1: NHS Mounjaro for Type 2 Diabetes</h2>
+<p>Mounjaro (tirzepatide) received NICE approval for type 2 diabetes in the UK via Technology Appraisal TA924. It is available on NHS prescription for patients who meet all of the following:</p>
+<ul>
+<li>Diagnosed with type 2 diabetes</li>
+<li>Inadequate blood sugar control on current treatment (HbA1c above target)</li>
+<li>At least one previous diabetes medication tried</li>
+<li>No contraindications to tirzepatide</li>
+</ul>
+<p>If you have type 2 diabetes and your GP or diabetes team has not yet mentioned Mounjaro, ask them specifically: "Am I eligible for tirzepatide under NICE TA924?" NHS patients pay only the standard prescription charge (£9.90 per item in England, free in Scotland and Wales).</p>
+<h2>Route 2: NHS Mounjaro (or Wegovy) for Weight Management</h2>
+<p>NHS access to GLP-1 medications specifically for weight management (without diabetes) is more limited in 2026 but expanding. The pathway is through the NHS Specialist Weight Management Service (Tier 3).</p>
+<h3>How to Access Tier 3 Weight Management</h3>
+<p>Tier 3 services are specialist NHS clinics led by multidisciplinary teams (specialist physicians, dietitians, psychologists, nurses). To be considered for NHS GLP-1 prescribing via Tier 3, you typically need to meet these criteria:</p>
+<table>
+<tr><th>Criterion</th><th>Typical threshold</th></tr>
+<tr><td>Weight classification</td><td>Clinically severe obesity, or obesity with significant health complications</td></tr>
+<tr><td>Previous attempts</td><td>Evidence of engagement with lifestyle and dietary programmes</td></tr>
+<tr><td>Health conditions</td><td>At least one obesity-related condition (hypertension, sleep apnoea, joint problems, etc.)</td></tr>
+<tr><td>Commitment</td><td>Willingness to attend follow-up appointments and monitoring</td></tr>
+</table>
+<p>Access is via GP referral. Ask your GP specifically: "Can you refer me to the Tier 3 Specialist Weight Management Service?"</p>
+<h2>NHS England Specialist Weight Management Programme</h2>
+<p>From 2025 onwards, NHS England commissioned a specialist weight management service with capacity to prescribe Wegovy (semaglutide) and, in some areas, Mounjaro to eligible patients. This is not available everywhere — rollout has been phased by Integrated Care Board (ICB). Check with your GP whether this service is available in your area.</p>
+<h2>Realistic Waiting Times</h2>
+<table>
+<tr><th>Route</th><th>Typical wait</th><th>Notes</th></tr>
+<tr><td>NHS Mounjaro for diabetes (via GP)</td><td>1–4 weeks</td><td>Depends on GP appointment availability and existing treatment review</td></tr>
+<tr><td>Tier 3 referral (GP to first appointment)</td><td>3–9 months</td><td>Significant variation by region and local demand</td></tr>
+<tr><td>GLP-1 prescription via Tier 3</td><td>6–18 months from GP referral</td><td>Includes time in programme before prescribing decision</td></tr>
+<tr><td>Private prescription (no NHS wait)</td><td>1–3 days</td><td>Immediate access after online consultation; patient pays full cost</td></tr>
+</table>
+<h2>While You Wait: Private Bridging</h2>
+<p>Many patients who are waiting for NHS Tier 3 access choose to start on a private Mounjaro or Wegovy prescription in the meantime. This is legal, safe and common. The cheapest private Mounjaro in the UK starts at £133.19/month (Medino). If and when NHS access is granted, patients can transition to NHS prescribing and stop paying privately.</p>
+<h2>Tips to Strengthen Your NHS Application</h2>
+<ul>
+<li>Download and use the free NHS Weight Loss Plan app for 12+ weeks and keep a record</li>
+<li>Ask your GP to document all previous weight management attempts in your notes</li>
+<li>Request a formal weight management assessment with your GP and ask for the outcome to be documented</li>
+<li>Ask your GP to check your eligibility for the NHS Digital Weight Management Programme (free, for patients with diabetes or hypertension)</li>
+<li>If refused for Tier 3, ask your GP what the criteria are locally and what you need to demonstrate to qualify</li>
+</ul>
+<blockquote>NHS pathways vary by Integrated Care Board. The information above reflects the general national position in 2026 but specific eligibility criteria and waiting times may differ in your area. Always speak to your GP for the most accurate local guidance.</blockquote>
+`},
+{title:'Ozempic vs Wegovy UK 2026: Same Ingredient, Very Different Drugs',category:'Comparison',catClass:'cat-blue',emoji:'🔬',bgGrad:'linear-gradient(135deg,#1e3a5f,#3b82f6)',date:'June 2026',readTime:'9 min read',excerpt:'Ozempic and Wegovy both contain semaglutide — so why are they treated as completely different drugs in the UK? This guide explains the dose difference, licences, cost and which one UK patients should use for weight loss.',content:`
+<p>One of the most common sources of confusion in the UK GLP-1 market is Ozempic vs Wegovy. Both contain semaglutide. Both are made by the same manufacturer (Novo Nordisk). Both come in pre-filled weekly injection pens. So are they the same thing? The answer is: mostly yes, but the dose — and crucially the licence — makes them very different in practice.</p>
+<h2>The Core Difference: Dose and Licence</h2>
+<table>
+<tr><th>Factor</th><th>Ozempic</th><th>Wegovy</th></tr>
+<tr><td>Active ingredient</td><td>Semaglutide</td><td>Semaglutide</td></tr>
+<tr><td>Maximum dose</td><td>1mg weekly</td><td>2.4mg weekly</td></tr>
+<tr><td>UK licence</td><td>Type 2 diabetes only</td><td>Weight management (chronic weight loss)</td></tr>
+<tr><td>Dose escalation</td><td>0.25mg → 0.5mg → 1mg</td><td>0.25mg → 0.5mg → 1mg → 1.7mg → 2.4mg</td></tr>
+<tr><td>Starting UK price</td><td>~£100–£150/mo (private, off-label)</td><td>From £86.39/mo (Medino)</td></tr>
+<tr><td>NHS prescribing</td><td>Yes (for diabetes)</td><td>Limited (expanding via Tier 3)</td></tr>
+<tr><td>STEP trial weight loss</td><td>~6–7% body weight (1mg)</td><td>~15% body weight (2.4mg, STEP-1)</td></tr>
+</table>
+<h2>Why the Higher Dose Produces More Weight Loss</h2>
+<p>The critical insight is that semaglutide's weight loss effect is highly dose-dependent. At 1mg (Ozempic maximum), average weight loss in clinical trials was approximately 6–7% of body weight. At 2.4mg (Wegovy maximum), the STEP-1 trial showed approximately 14.9% body weight loss. More than double the result from less than triple the dose.</p>
+<p>This is because appetite suppression — the primary mechanism of semaglutide for weight loss — scales significantly with dose at this range. The 2.4mg dose produces a more sustained and powerful appetite reduction than 1mg.</p>
+<h2>Should UK Patients Use Ozempic or Wegovy for Weight Loss?</h2>
+<p>Straightforwardly: for weight management, UK patients should use <strong>Wegovy</strong>, not Ozempic. Here is why:</p>
+<ul>
+<li><strong>Licence:</strong> Wegovy is specifically licensed for weight management in the UK. Ozempic is not — using it for weight loss is prescribing it off-label.</li>
+<li><strong>Dose:</strong> Wegovy reaches 2.4mg; Ozempic caps at 1mg. The higher Wegovy dose produces significantly better weight loss results.</li>
+<li><strong>Supply:</strong> During the significant Ozempic shortage of 2023–2024, the UK government and NHS expressly asked prescribers not to prescribe Ozempic for weight loss (to preserve supply for diabetes patients). Wegovy has its own supply chain separate from Ozempic.</li>
+<li><strong>Cost:</strong> Wegovy is often cheaper than Ozempic at private pharmacies — from £86.39/month at Medino vs £100–£150+ for off-label Ozempic.</li>
+</ul>
+<h2>When Might a Doctor Prescribe Ozempic for Weight Loss?</h2>
+<p>There are limited circumstances where a prescriber might use Ozempic off-label for weight loss — for example, if a patient cannot tolerate higher doses of semaglutide and benefits from the 1mg maintenance dose without escalating, or in specific clinical situations. But for standard weight management in the UK, Wegovy is the appropriate choice.</p>
+<h2>Current Wegovy Prices Across UK Providers (June 2026)</h2>
+<table>
+<tr><th>Provider</th><th>0.25mg</th><th>0.5mg</th><th>1mg</th><th>1.7mg</th><th>2.4mg</th></tr>
+<tr><td>Medino</td><td>£86.39</td><td>£89.99</td><td>£95.39</td><td>£152.99</td><td>£206.99</td></tr>
+<tr><td>Pharmacy2U</td><td>£94.99</td><td>£114.99</td><td>£144.99</td><td>£168.99</td><td>£189.99</td></tr>
+<tr><td>Pillsorted</td><td>£96.00</td><td>£116.00</td><td>£122.00</td><td>£166.00</td><td>£186.00</td></tr>
+<tr><td>Superdrug</td><td>£99.00</td><td>£119.00</td><td>£166.00</td><td>£192.00</td><td>£205.00</td></tr>
+<tr><td>Boots</td><td>£99.97</td><td>£119.97</td><td>£166.97</td><td>£192.97</td><td>£205.97</td></tr>
+</table>
+<p>Use our full comparison table above to see all providers sorted by your specific dose. Prices are updated weekly.</p>
+<blockquote>Always consult a UK-registered prescriber before starting any GLP-1 medication. Semaglutide requires a prescription and medical assessment in the UK.</blockquote>
+`},
+{title:'GLP-1 Injections & Type 2 Diabetes UK 2026: How Mounjaro Can Help Reverse Diabetes',category:'Clinical Guide',catClass:'cat-green',emoji:'🩺',bgGrad:'linear-gradient(135deg,#052e16,#16a34a)',date:'June 2026',readTime:'10 min read',excerpt:'For people with type 2 diabetes and excess weight, GLP-1 medications offer a remarkable dual benefit — significant weight loss AND improved blood sugar control. Here is what the evidence shows for UK patients in 2026.',content:`
+<p>Type 2 diabetes and excess weight are closely linked — approximately 85–90% of people with type 2 diabetes in the UK are overweight or obese, and weight is one of the most powerful modifiable risk factors for both developing and managing the condition. GLP-1 medications, and Mounjaro (tirzepatide) in particular, address both conditions simultaneously in a way that no previous medication has achieved.</p>
+<h2>What Do GLP-1 Medications Do for Type 2 Diabetes?</h2>
+<p>GLP-1 receptor agonists were originally developed as diabetes medications before their weight loss effects became apparent. They work in diabetes by:</p>
+<ul>
+<li><strong>Stimulating insulin release</strong> — only when blood glucose is elevated (glucose-dependent), which means low hypoglycaemia risk compared to some older diabetes medications</li>
+<li><strong>Suppressing glucagon</strong> — reducing the liver's glucose output between meals</li>
+<li><strong>Slowing gastric emptying</strong> — reducing post-meal blood glucose spikes</li>
+<li><strong>Reducing appetite and body weight</strong> — which itself improves insulin sensitivity</li>
+</ul>
+<h2>Mounjaro's Diabetes Results: The Clinical Evidence</h2>
+<p>Mounjaro (tirzepatide) was first approved as a diabetes drug before receiving its weight management licence. The SURPASS clinical trial programme showed remarkable HbA1c reductions:</p>
+<table>
+<tr><th>Mounjaro dose</th><th>Average HbA1c reduction</th><th>% reaching HbA1c &lt;7%</th><th>% reaching HbA1c &lt;5.7% (normal)</th></tr>
+<tr><td>5mg</td><td>−1.87%</td><td>82%</td><td>27%</td></tr>
+<tr><td>10mg</td><td>−2.07%</td><td>88%</td><td>39%</td></tr>
+<tr><td>15mg</td><td>−2.38%</td><td>92%</td><td>46%</td></tr>
+</table>
+<p>To put these numbers in context: 46% of patients on Mounjaro 15mg achieved an HbA1c below 5.7% — the threshold for normal blood sugar, not just controlled diabetes. For many patients with relatively recently diagnosed type 2 diabetes, this means moving into what clinicians describe as "diabetes remission."</p>
+<h2>Can GLP-1 Medications Reverse Type 2 Diabetes?</h2>
+<p>The concept of diabetes "remission" (sustained normal blood sugar without diabetes medication) is now well-established. The key question is whether GLP-1 medications contribute to this.</p>
+<p>Evidence suggests they can — particularly when combined with significant weight loss. The DIRECT trial (which used a different approach — dietary calorie restriction) showed that substantial weight loss produces diabetes remission in many patients. GLP-1 medications now offer a pharmacological way to achieve similar weight loss, with additional direct glucose-lowering effects on top.</p>
+<p>For patients who achieve significant weight loss on Mounjaro and whose blood sugar normalises, some prescribers are successfully reducing or stopping other diabetes medications under careful monitoring. This must always be done under medical supervision — do not stop or reduce diabetes medications without your doctor's guidance.</p>
+<h2>NHS Access to Mounjaro for Type 2 Diabetes in 2026</h2>
+<p>Mounjaro is available on NHS prescription for type 2 diabetes via NICE Technology Appraisal TA924. The standard prescription charge applies in England (currently £9.90 per item). In Scotland and Wales, prescriptions are free.</p>
+<p>NHS prescribing criteria include:</p>
+<ul>
+<li>Diagnosed type 2 diabetes</li>
+<li>HbA1c above target on current treatment</li>
+<li>At least one prior diabetes medication tried</li>
+<li>No contraindications</li>
+</ul>
+<h2>Mounjaro vs Ozempic for Type 2 Diabetes: Which Is Better?</h2>
+<p>Multiple head-to-head trials (the SURPASS-STEP studies) have compared tirzepatide (Mounjaro) and semaglutide (Ozempic/Wegovy) for type 2 diabetes management. Mounjaro consistently produces greater HbA1c reduction and greater weight loss than semaglutide in direct comparisons. NICE TA924 acknowledges this superior efficacy, which is why Mounjaro is now the preferred GLP-1 option for many UK diabetes patients where the clinical evidence and NHS formulary support its use.</p>
+<h2>If You Have Type 2 Diabetes: Questions to Ask Your GP</h2>
+<ul>
+<li>"Am I eligible for tirzepatide (Mounjaro) under NICE TA924?"</li>
+<li>"Is my HbA1c or weight management creating a need to escalate treatment?"</li>
+<li>"Could a GLP-1 medication help me reduce my other diabetes medications?"</li>
+<li>"Am I eligible for the NHS Specialist Weight Management Service if I also need support with my weight?"</li>
+</ul>
+<blockquote>⚠️ Do not stop, reduce or change any diabetes medication without explicit guidance from your diabetes care team or GP. Changes to diabetes treatment require careful monitoring of blood sugar levels.</blockquote>
+`},
+{title:'Best Diet Pills UK 2026: Safe, Legal Weight Loss Tablets Compared',category:'Comparison',catClass:'cat-purple',emoji:'💊',bgGrad:'linear-gradient(135deg,#4c1d95,#7c3aed)',date:'June 2026',readTime:'11 min read',excerpt:'The UK diet pill market is full of bold claims and questionable science. This guide cuts through the noise — comparing the only clinically proven options with legally available supplements, so you know exactly what works and what doesn\'t.',content:`
+<p>Every January, searches for "best diet pills UK" surge as millions resolve to lose weight. The reality is that the UK diet pill market is a vast landscape ranging from clinically proven prescription-only medications to unregulated supplements making extraordinary claims. This guide covers what\'s actually available, what\'s legal, and — crucially — what the evidence actually says.</p>
+
+<h2>The Only Proven Prescription Weight Loss Medications Available in the UK</h2>
+<p>Three prescription medications are currently licensed for weight loss in the UK. These are the only treatments with robust clinical evidence for significant, sustained weight loss:</p>
+
+<h3>1. Mounjaro (Tirzepatide) — Strongest Available</h3>
+<p>Mounjaro is a dual GIP/GLP-1 receptor agonist — a weekly injection licensed in the UK for weight management in adults with BMI ≥30 (or ≥27 with a weight-related health condition). In the SURMOUNT-1 trial, participants lost an average of <strong>22.5% of body weight</strong> at the highest dose (15mg) over 72 weeks. At current prices, Mounjaro costs £133.19–£340/month from UK online pharmacies. A prescription is required and eligibility criteria apply.</p>
+
+<h3>2. Wegovy (Semaglutide) — Well Established</h3>
+<p>Wegovy is a weekly GLP-1 injection from Novo Nordisk, licensed specifically for weight management. The STEP-1 trial showed average weight loss of <strong>14.9% of body weight</strong> over 68 weeks. Wegovy is available from UK online pharmacies from £86.39–£229/month depending on dose and provider. Like Mounjaro, a prescription is required.</p>
+
+<h3>3. Orlistat — The Original</h3>
+<p>Orlistat (sold as Xenical on prescription or Alli over the counter at 60mg strength) blocks approximately 30% of dietary fat from being absorbed. It produces modest weight loss — typically 5–7% of body weight over 12 months — and requires a very low-fat diet to avoid unpleasant gastrointestinal side effects. It\'s the only weight loss medication available without a prescription in the UK (at lower dose). It\'s significantly less effective than GLP-1 medications but much cheaper.</p>
+
+<h2>Over-the-Counter Weight Loss Supplements: What the Evidence Says</h2>
+<p>Hundreds of weight loss supplements are sold legally in the UK — from high-street health food shops and pharmacies to Amazon and social media. The important distinction: supplements are not medicines. They are not required to prove efficacy before being sold. Here\'s what the evidence shows for the most popular categories:</p>
+
+<h3>Glucomannan (Konjac Fibre)</h3>
+<p>Glucomannan is a soluble fibre derived from the konjac plant. It is the <em>only</em> supplement approved by the European Food Safety Authority (EFSA) for a weight loss claim — specifically that it "contributes to weight loss in the context of an energy-restricted diet." The effect size is modest: clinical trials show 0.3–0.6kg additional weight loss per week compared to placebo, when combined with calorie restriction. It works primarily by expanding in the stomach, increasing satiety. Doses of 1g, three times daily before meals, are typically used.</p>
+
+<h3>Caffeine / Green Tea Extract</h3>
+<p>Caffeine is a mild metabolic stimulant with some evidence for modest thermogenic effects (increased calorie burning). Green tea extract combines caffeine with catechins, which may have a small additional effect. Realistically, the additional calorie expenditure is 50–100 kcal/day — equivalent to a short walk. Useful as part of a broader strategy, not a standalone solution. Most commercial "fat burner" products contain these ingredients at varying doses.</p>
+
+<h3>5-HTP</h3>
+<p>5-HTP (5-hydroxytryptophan) is a precursor to serotonin. Some small studies suggest it may reduce carbohydrate cravings and overall calorie intake by increasing satiety signals. Evidence quality is low. More commonly used for mood and sleep support. Should not be combined with antidepressants (SSRIs/MAOIs) without medical advice.</p>
+
+<h3>CLA (Conjugated Linoleic Acid)</h3>
+<p>CLA is a naturally occurring fatty acid found in meat and dairy. Some evidence suggests it modestly reduces body fat mass, but effects are small (0.1–0.2kg per week) and inconsistent across trials. Generally considered safe but unlikely to produce meaningful weight loss alone.</p>
+
+<h3>Raspberry Ketones, Garcinia Cambogia, Acai Berry, etc.</h3>
+<p>These headline ingredients in many commercial supplements have very limited human trial data, and where trials exist, effects are not clinically meaningful. They are not recommended as weight loss treatments by any UK clinical guideline. Despite this, they are widely marketed and sold legally in the UK.</p>
+
+<h2>Banned and Illegal Diet Pills in the UK</h2>
+<p>It\'s important to know that several compounds sold online — often via social media — are either banned or unlicensed as medicines in the UK:</p>
+<ul>
+<li><strong>DNP (2,4-dinitrophenol)</strong> — an industrial chemical sold as a "fat burner" that has caused multiple deaths in the UK. Completely illegal to supply as a food supplement.</li>
+<li><strong>Sibutramine</strong> — a formerly licensed appetite suppressant withdrawn from the EU/UK market in 2010 due to cardiovascular risks. Still found in unregulated supplements.</li>
+<li><strong>Ephedrine/Ma Huang (high-dose)</strong> — stimulants associated with cardiac events. Controlled and not available OTC.</li>
+<li><strong>Unlicensed semaglutide/tirzepatide compounded products</strong> — following supply issues, some online sellers began offering "compounded" versions of GLP-1 medications. These are not licensed medicines in the UK and their safety and potency cannot be guaranteed.</li>
+</ul>
+
+<h2>Prescription vs OTC vs Supplement: A Comparison</h2>
+<table style="width:100%;border-collapse:collapse;margin:20px 0">
+<thead><tr style="background:var(--primary);color:white"><th style="padding:10px;text-align:left">Option</th><th style="padding:10px;text-align:left">Weight Loss (12 months)</th><th style="padding:10px;text-align:left">Cost/month</th><th style="padding:10px;text-align:left">Prescription?</th></tr></thead>
+<tbody>
+<tr style="background:var(--gray-50)"><td style="padding:10px">Mounjaro injection</td><td style="padding:10px">~20–22% body weight</td><td style="padding:10px">£133–£340</td><td style="padding:10px">Yes</td></tr>
+<tr><td style="padding:10px">Wegovy injection</td><td style="padding:10px">~15% body weight</td><td style="padding:10px">£87–£229</td><td style="padding:10px">Yes</td></tr>
+<tr style="background:var(--gray-50)"><td style="padding:10px">Orlistat (Alli)</td><td style="padding:10px">~5–7% body weight</td><td style="padding:10px">£25–£50</td><td style="padding:10px">OTC (60mg) / Rx (120mg)</td></tr>
+<tr><td style="padding:10px">Glucomannan</td><td style="padding:10px">~1–3% body weight</td><td style="padding:10px">£5–£15</td><td style="padding:10px">No</td></tr>
+<tr style="background:var(--gray-50)"><td style="padding:10px">"Fat burner" supplements</td><td style="padding:10px">Minimal/negligible</td><td style="padding:10px">£20–£80</td><td style="padding:10px">No</td></tr>
+</tbody>
+</table>
+
+<h2>The Bottom Line</h2>
+<p>If you are looking for meaningful, clinically proven weight loss, the evidence strongly favours prescription GLP-1 medications (Mounjaro and Wegovy) over all supplements. The gap in effectiveness is substantial. If cost is a barrier, Orlistat is the only OTC product with regulatory approval for a weight loss claim, and glucomannan is the only supplement with EFSA-approved modest evidence. For most people seeking more than a few kg of weight loss, a conversation with a GP or online clinician about prescription options is the most evidence-based starting point.</p>
+<blockquote>⚠️ Always consult a healthcare professional before starting any weight loss medication, including OTC products. Many interact with other medications or are unsuitable for certain health conditions. Avoid buying prescription medications from unlicensed online sources.</blockquote>
+`},
+{title:'Weight Loss for Women Over 40 UK 2026: Menopause, Hormones & What Actually Works',category:'Guide',catClass:'cat-green',emoji:'👩',bgGrad:'linear-gradient(135deg,#064e3b,#10b981)',date:'June 2026',readTime:'13 min read',excerpt:'Losing weight after 40 — especially during perimenopause and menopause — is genuinely harder. This guide explains the hormonal science and ranks every weight loss method by how well it works for women in their 40s, 50s and beyond.',content:`
+<p>If you\'re a woman over 40 and you\'ve found that weight loss suddenly feels like it requires twice the effort for half the results, you are not imagining it. The hormonal changes of perimenopause and menopause create a genuinely different physiological environment — one that most weight loss programmes aren\'t designed for.</p>
+<p>This guide explains what\'s happening biologically and, more practically, which weight loss methods are most effective for women in this life stage in the UK in 2026.</p>
+
+<h2>Why Weight Loss Gets Harder After 40 for Women</h2>
+<p>Several overlapping biological changes begin in most women\'s mid-to-late 30s and accelerate through the 40s and 50s:</p>
+
+<h3>Declining Oestrogen</h3>
+<p>Oestrogen plays a key role in regulating body fat distribution. As oestrogen declines during perimenopause and menopause, fat redistribution from the hips and thighs to the abdomen is extremely common. Visceral (abdominal) fat is more metabolically active and more associated with cardiovascular and metabolic disease risk than subcutaneous fat. This shift happens regardless of calorie intake or exercise habits.</p>
+
+<h3>Insulin Resistance</h3>
+<p>Oestrogen helps maintain insulin sensitivity. As levels drop, many women develop increasing insulin resistance — meaning the body needs more insulin to process the same amount of carbohydrate. This promotes fat storage and makes it harder to burn fat for energy. It also contributes to increased cravings for carbohydrate-rich foods.</p>
+
+<h3>Loss of Muscle Mass (Sarcopenia)</h3>
+<p>Muscle mass naturally declines with age — but the decline accelerates after menopause, partly because oestrogen and testosterone (which also declines in women) both support muscle maintenance. Less muscle means a lower basal metabolic rate — meaning the body burns fewer calories at rest. This is why a woman of 50 eating the same diet as her 30-year-old self will typically gain weight over time.</p>
+
+<h3>Sleep Disruption</h3>
+<p>Hot flushes, night sweats and anxiety commonly disrupt sleep during perimenopause. Poor sleep increases ghrelin (the hunger hormone) and decreases leptin (the satiety hormone), making appetite control significantly harder. Tiredness also reduces motivation for exercise.</p>
+
+<h3>Thyroid Function</h3>
+<p>Thyroid conditions — particularly hypothyroidism — become more common in women after 40. An underactive thyroid slows metabolism and causes weight gain independent of diet. If you\'re finding unexplained weight gain, fatigue and cold sensitivity alongside difficulty losing weight, ask your GP for a thyroid function test.</p>
+
+<h2>What the Evidence Says for Each Weight Loss Method</h2>
+
+<h3>GLP-1 Injections (Mounjaro and Wegovy) — Most Effective</h3>
+<p>GLP-1 receptor agonists have a significant advantage in the peri- and post-menopausal context: they work primarily on appetite signalling in the brain (the hypothalamus), bypassing many of the hormonal barriers that make conventional dieting harder. They also improve insulin sensitivity directly.</p>
+<p>In clinical trials, GLP-1 medications produced weight loss across all age groups and BMI ranges. Post-menopausal women in the SURMOUNT-1 and STEP-1 trials lost comparable amounts to pre-menopausal participants. For women who have tried and struggled with diet-based approaches, GLP-1 medications represent the most evidence-based pharmacological option.</p>
+<p>Key considerations for women over 40: GLP-1 injections do not address muscle loss. It is strongly advisable to combine GLP-1 treatment with resistance exercise to preserve lean mass during weight loss. If HRT (Hormone Replacement Therapy) is also appropriate, some clinicians note that HRT and GLP-1 medications can complement each other — HRT addresses the hormonal cause of fat redistribution and metabolic decline, GLP-1 addresses appetite and insulin sensitivity.</p>
+
+<h3>HRT (Hormone Replacement Therapy)</h3>
+<p>HRT does not cause weight loss per se, but it does address the underlying hormonal driver of menopausal weight gain — declining oestrogen. Clinical evidence shows that HRT significantly reduces the rate of fat redistribution to the abdomen and helps maintain insulin sensitivity. Women on HRT find it easier to lose weight with diet and exercise than those not taking it. HRT is a medical treatment available on NHS prescription. If you\'re in perimenopause or menopause and experiencing weight gain, a conversation with your GP about HRT is worthwhile irrespective of weight loss goals.</p>
+
+<h3>High-Protein Diet</h3>
+<p>Protein has the highest thermic effect of food (burning approximately 20–30% of calories during digestion vs 5–10% for carbohydrates) and is the most effective macronutrient for satiety. Critically, adequate protein intake preserves lean muscle mass during calorie restriction — which is especially important for women over 40 losing muscle to sarcopenia. Aim for 1.6–2.0g of protein per kg of body weight daily if weight training alongside a calorie deficit.</p>
+
+<h3>Resistance Training / Weight Training</h3>
+<p>For women over 40, resistance training (weights, resistance bands, bodyweight exercises) is not optional — it\'s arguably the most important single lifestyle intervention available. It directly counteracts muscle loss, increases basal metabolic rate, improves insulin sensitivity, reduces visceral fat, improves bone density (reducing osteoporosis risk), and has evidence for improving mood and sleep quality. Two to three sessions per week is sufficient for meaningful results.</p>
+
+<h3>Very Low Calorie Diets (Cambridge, LighterLife)</h3>
+<p>VLCDs produce rapid weight loss — often 1–2 stone in 8–12 weeks — but carry an important caveat for women over 40: aggressive calorie restriction without adequate protein and resistance exercise can accelerate muscle loss. If using a VLCD, choose a programme with a relatively high protein allocation (≥100g/day) and consider adding resistance exercise even at lower calorie levels. The weight loss will typically be maintained better long-term if muscle mass is preserved.</p>
+
+<h3>Slimming Clubs (WW, Slimming World)</h3>
+<p>Slimming clubs are effective for modest weight loss (typically 5–10% of body weight over 12 months) with good completion rates due to social support. They are not specifically designed for the hormonal context of menopause, but the community support component is particularly valuable for women managing the emotional and psychological aspects of this life stage. WW\'s point system is more easily adapted to a high-protein dietary approach than Slimming World\'s food-based system.</p>
+
+<h2>Practical Recommendations for Women Over 40</h2>
+<ul>
+<li><strong>Get a blood test first</strong> — check thyroid function (TSH), fasting blood glucose/HbA1c, and vitamin D. Address any underlying issues before embarking on a weight loss programme.</li>
+<li><strong>Consider HRT</strong> — if you\'re perimenopausal or menopausal, discuss HRT with your GP. It significantly improves the hormonal environment for weight loss.</li>
+<li><strong>Prioritise protein and resistance training</strong> — regardless of which weight loss method you choose, preserving muscle mass should be a priority in your 40s and beyond.</li>
+<li><strong>Consider GLP-1 medications if diet has not worked</strong> — if you have tried calorie-controlled diets and exercise consistently without achieving your goal weight, GLP-1 medications (Mounjaro or Wegovy) from a UK online pharmacy are the most evidence-based pharmacological option available without a hospital referral.</li>
+<li><strong>Be patient with the scale</strong> — the hormonal changes of menopause mean weight loss may be slower than it was in your 20s and 30s, even on the same approach. This is normal biology, not failure.</li>
+</ul>
+<blockquote>This article is for informational purposes only. Speak to your GP or a menopause specialist before starting any new medication, supplement or significant dietary change, particularly if you have underlying health conditions.</blockquote>
+`},
+{title:'How Long Does It Take to Lose 2 Stone in the UK? 2026 Timeline by Method',category:'Guide',catClass:'cat-amber',emoji:'⏱️',bgGrad:'linear-gradient(135deg,#78350f,#f59e0b)',date:'June 2026',readTime:'10 min read',excerpt:'Losing 2 stone (12.7kg) is a common target for UK dieters. But timelines vary enormously by method — from 6 weeks on a crash diet to 18 months on a slimming club. Here\'s a realistic, evidence-based breakdown.',content:`
+<p>Two stone (12.7kg) is one of the most common weight loss targets in the UK — it\'s significant enough to make a real difference to health and how you feel, but achievable for most people with the right approach. The question is: how long will it actually take?</p>
+<p>The honest answer is that timelines vary enormously depending on the method, your starting weight, age, sex and consistency. Here\'s a realistic, evidence-based breakdown for the main weight loss methods available in the UK in 2026.</p>
+
+<h2>Safe Rate of Weight Loss: The Baseline</h2>
+<p>The NHS recommends aiming for 0.5–1kg (1–2lb) of weight loss per week on a sustainable diet. At this rate, 2 stone (12.7kg) would take <strong>13–25 weeks</strong> — roughly 3–6 months. This is achievable through a moderate calorie deficit (500–1,000 kcal/day below maintenance) combined with increased physical activity.</p>
+<p>Faster weight loss is possible but generally requires more intensive intervention (VLCDs, medication, or surgery) and carries greater risk of muscle loss and nutritional deficiency if not managed carefully.</p>
+
+<h2>Time to Lose 2 Stone by Method</h2>
+
+<h3>Mounjaro (Tirzepatide) — 3 to 5 Months</h3>
+<p>In the SURMOUNT-1 clinical trial, participants on the highest dose (15mg) lost approximately 22.5% of body weight over 72 weeks. But a significant proportion of that weight is lost in the first 20–24 weeks. For a person starting at 90kg (14 stone 2lb), 2 stone would represent 14% of body weight — achievable in approximately <strong>4–5 months</strong> on Mounjaro at optimal dose titration.</p>
+<p>The dose titration schedule (2.5mg → 5mg → 7.5mg → 10mg → 12.5mg → 15mg, increasing every 4 weeks) means the full effect takes time to build. Most people see the fastest rate of weight loss between months 3 and 9.</p>
+<p><strong>Cost for 4–5 months:</strong> Approximately £560–£850 depending on dose and provider (starting at £133.19/month from Medino).</p>
+
+<h3>Wegovy (Semaglutide) — 4 to 7 Months</h3>
+<p>Wegovy participants in the STEP-1 trial lost an average of 14.9% of body weight over 68 weeks. The same calculation: 2 stone as a proportion of a 90kg starting weight is 14%, achievable in approximately <strong>6 months</strong> on the maintenance dose (2.4mg), though some individuals respond faster.</p>
+<p>Similar to Mounjaro, dose titration is gradual — starting at 0.25mg and reaching 2.4mg over 5 months.</p>
+<p><strong>Cost for 6 months:</strong> Approximately £520–£1,200 depending on dose progression and provider.</p>
+
+<h3>Very Low Calorie Diet (Cambridge, LighterLife) — 6 to 10 Weeks</h3>
+<p>VLCDs (415–800 kcal/day) produce the fastest weight loss available through diet alone. At 415 kcal/day, a calorie deficit of 1,600–2,000 kcal/day for a sedentary adult produces approximately 1.5–2kg of weight loss per week. At this rate, 2 stone is achievable in <strong>6–9 weeks</strong>.</p>
+<p>Important caveats: this is the fastest initial weight loss but carries the highest risk of regain without a robust transition to a maintenance diet. VLCD programmes typically include a structured reintroduction phase. Medical supervision is advised for VLCDs below 800 kcal/day, particularly for individuals with diabetes or other health conditions.</p>
+<p><strong>Cost:</strong> Cambridge Weight Plan typically costs £200–£300/month (products + consultant). So 6–10 weeks = £300–£750.</p>
+
+<h3>Standard Calorie-Controlled Diet (1,400–1,600 kcal/day) — 3 to 6 Months</h3>
+<p>A moderate calorie-controlled diet producing a 500–750 kcal/day deficit — achievable through a structured plan such as WW or a calorie counting app — typically yields 0.5–0.75kg/week. At this rate, 2 stone takes approximately <strong>17–25 weeks (4–6 months)</strong>.</p>
+<p>This is the most sustainable approach for most people long-term, though the slower progress can reduce motivation.</p>
+
+<h3>WW (Weight Watchers) / Slimming World — 4 to 8 Months</h3>
+<p>Clinical evidence shows that participants in structured slimming club programmes lose an average of 5–10% of body weight over 12 months. For someone at 90kg, 2 stone (14%) is above the average 12-month outcome for slimming clubs. The most compliant participants — those attending weekly meetings consistently and following the plan strictly — can achieve 2 stone in <strong>5–7 months</strong>. Average participants take 8–12 months.</p>
+<p><strong>Cost:</strong> £15–£25/month → approximately £75–£200 for the period.</p>
+
+<h3>Bariatric Surgery (Gastric Sleeve) — 3 to 4 Months Post-Surgery</h3>
+<p>After gastric sleeve surgery, patients typically lose 60–70% of their excess body weight over 12–18 months. In the first 3–4 months post-surgery, weight loss is typically very rapid — many patients lose 2 stone within the <strong>first 3 months</strong> post-surgery.</p>
+<p>However, surgery carries a significant upfront cost (£9,000–£14,000 private), preparation time (medical assessments, dietary preparation, waiting list), and a recovery period. The total timeline from deciding to have surgery to losing 2 stone is typically 6–12 months including the pre-surgery process.</p>
+
+<h2>Summary Table: Time to Lose 2 Stone</h2>
+<table style="width:100%;border-collapse:collapse;margin:20px 0">
+<thead><tr style="background:var(--primary);color:white"><th style="padding:10px;text-align:left">Method</th><th style="padding:10px;text-align:left">Typical Timeline</th><th style="padding:10px;text-align:left">Approx. Cost</th></tr></thead>
+<tbody>
+<tr style="background:var(--gray-50)"><td style="padding:10px">VLCD (Cambridge, LighterLife)</td><td style="padding:10px">6–10 weeks</td><td style="padding:10px">£300–£750</td></tr>
+<tr><td style="padding:10px">Mounjaro injection</td><td style="padding:10px">4–5 months</td><td style="padding:10px">£560–£850</td></tr>
+<tr style="background:var(--gray-50)"><td style="padding:10px">Wegovy injection</td><td style="padding:10px">5–7 months</td><td style="padding:10px">£520–£1,200</td></tr>
+<tr><td style="padding:10px">Calorie-controlled diet</td><td style="padding:10px">4–6 months</td><td style="padding:10px">£0–£100</td></tr>
+<tr style="background:var(--gray-50)"><td style="padding:10px">WW / Slimming World</td><td style="padding:10px">5–8 months</td><td style="padding:10px">£75–£200</td></tr>
+<tr><td style="padding:10px">Bariatric surgery (post-op)</td><td style="padding:10px">3–4 months (post-op)</td><td style="padding:10px">£9,000–£14,000</td></tr>
+</tbody>
+</table>
+
+<h2>The Most Important Factor: Consistency</h2>
+<p>Whichever method you choose, consistency matters more than the method itself. People who attend slimming club meetings every week outperform those on "better" diets who are inconsistent. People on GLP-1 medications who titrate up correctly and maintain the medication see far better outcomes than those who stop and start. Losing 2 stone is almost universally achievable — the main variable is time and adherence, not access to a secret method.</p>
+<blockquote>Always consult your GP before starting any very low calorie diet or weight loss medication. Rapid weight loss requires adequate supervision, especially if you have diabetes, heart disease, or take regular medications.</blockquote>
+`},
+{title:'Weight Loss on a Budget UK 2026: Best Options Under £50 per Month',category:'Budget Guide',catClass:'cat-green',emoji:'💰',bgGrad:'linear-gradient(135deg,#14532d,#22c55e)',date:'June 2026',readTime:'9 min read',excerpt:'GLP-1 injections get most of the headlines, but not everyone can afford £133–£340/month. This guide covers the best weight loss options in the UK for people on a tight budget — including several completely free options.',content:`
+<p>The conversation about weight loss in 2026 is dominated by GLP-1 medications — Mounjaro, Wegovy, and the NHS pipeline of treatments. But at £133–£340 per month, these are genuinely unaffordable for many people. This guide covers the most effective weight loss options available in the UK for under £50 per month — and some that cost nothing at all.</p>
+
+<h2>Free Weight Loss Options in the UK</h2>
+
+<h3>NHS Weight Loss Plan App</h3>
+<p>The NHS Weight Loss Plan is a free 12-week behavioural weight management programme available as an app (iOS and Android). It provides calorie guidance, meal planning, food logging, and week-by-week motivational content. It\'s evidence-based, developed by NHS clinical dietitians, and — importantly — completely free. For people with a BMI over 30, it\'s a sensible starting point before considering paid options.</p>
+<p>The limitation is that it requires significant self-discipline and doesn\'t include the social support of a group. Average weight loss in NHS digital programmes is approximately 3–5% of body weight over 12 weeks.</p>
+
+<h3>NHS Referral to Commercial Slimming Programmes</h3>
+<p>The NHS has longstanding partnerships with WW, Slimming World and Nutracheck to provide free places on commercial programmes for eligible patients. Ask your GP or practice nurse — if your BMI qualifies, you may be entitled to a free 12-week place on one of these programmes. This is completely free and includes access to the full programme.</p>
+
+<h3>Couch to 5K (C25K)</h3>
+<p>Running is one of the highest-calorie-burning exercises available and costs nothing beyond a pair of trainers. The NHS Couch to 5K app takes beginners from no running to 5K in 9 weeks. A 5K run burns approximately 300–400 kcal. Three runs per week creates an additional 900–1,200 kcal/week deficit — roughly equivalent to losing an extra 100–150g of fat per week, or approximately 5–8kg over 12 months, purely from running.</p>
+
+<h3>Intermittent Fasting (16:8 or 5:2)</h3>
+<p>Intermittent fasting is free to implement. The 16:8 method (eating within an 8-hour window, fasting for 16 hours) and the 5:2 approach (5 normal eating days, 2 days of 500–600 kcal) both produce modest calorie deficits without calorie counting. Evidence suggests 3–8% body weight loss over 8–24 weeks, broadly comparable to calorie restriction. Highly variable — some people find it straightforward, others find the fasting periods trigger overeating.</p>
+
+<h2>Under £10 per Month</h2>
+
+<h3>Nutracheck App — £5.99/month</h3>
+<p>Nutracheck is a UK-developed calorie counting app with one of the most comprehensive databases of UK supermarket and restaurant food. It costs £5.99/month (or £47.99/year) and provides detailed nutritional tracking, personalised calorie targets and progress logging. Clinical evidence for calorie counting apps shows 3–8% weight loss over 6 months for consistent users. For the price of a coffee per week, it\'s one of the best-value structured weight loss tools available.</p>
+
+<h3>MyFitnessPal (Free Tier)</h3>
+<p>The free tier of MyFitnessPal provides basic calorie tracking, a huge food database, and exercise logging. The premium tier is £8.99/month but many users find the free tier sufficient. Widely used and effective for calorie-aware eating — the act of logging food alone has been shown to significantly reduce intake.</p>
+
+<h2>Under £25 per Month</h2>
+
+<h3>WW (Weight Watchers) Digital — £10.95–£18.95/month</h3>
+<p>WW digital membership gives access to the full points tracking system, recipe library, and the WW app, without in-person workshop attendance. WW regularly offers extended free trials for new members. The evidence base for WW is strong — a 2015 meta-analysis in Annals of Internal Medicine found WW participants lost significantly more weight than those given diet education alone. The social app features and coaching within the app help with accountability.</p>
+
+<h3>Slimming World — £14.95–£19.95/month</h3>
+<p>Slimming World\'s in-person weekly group meetings are highly effective for people who are motivated by accountability and social support. The monthly cost includes unlimited group attendance and full access to the Food Optimising plan. Slimming World doesn\'t require calorie counting — it uses a "Free Foods" system that most members find less restrictive than calorie tracking. Average weight loss in published Slimming World trials is 4–5% of body weight at 12 weeks.</p>
+
+<h2>Under £50 per Month</h2>
+
+<h3>Exante Diet (Meal Replacement) — £45–£100/month</h3>
+<p>Exante is the most affordable UK meal replacement diet at approximately £1.50–£3.50 per meal. A partial meal replacement plan (replacing 2 meals with Exante products) costs approximately £45–£75/month. A full VLCD using only Exante products costs £90–£120/month. Compared to Cambridge and LighterLife, Exante requires no consultant and can be purchased directly online, significantly reducing cost. The weight loss outcomes are broadly comparable to other VLCDs at similar calorie levels.</p>
+
+<h3>Orlistat (Alli) — £25–£45/month</h3>
+<p>Alli is the only OTC weight loss medication in the UK with regulatory approval. It costs approximately £35–£50 for a 60-capsule pack (2-week supply at three capsules per day with meals). The evidence shows modest but real weight loss — 2–3kg more than diet alone at 12 months. It requires a very low-fat diet to avoid side effects. Not suitable for everyone, but it represents the only pharmacological weight loss tool available without a prescription.</p>
+
+<h2>Budget Strategy: Stacking Free Methods</h2>
+<p>The most cost-effective approach combines several free or near-free methods:</p>
+<ul>
+<li>NHS Weight Loss Plan app (free) for structured calorie guidance</li>
+<li>Couch to 5K (free) for exercise-driven calorie burn</li>
+<li>Nutracheck (£6/month) for accurate UK food tracking</li>
+<li>16:8 intermittent fasting (free) to reduce eating window</li>
+</ul>
+<p>This combination costs under £6/month and has a strong evidence base. It won\'t deliver the 20%+ weight loss of GLP-1 medications, but for a motivated person, 8–12% body weight loss over 12 months is achievable and sustainable.</p>
+<blockquote>Weight loss on a budget is absolutely achievable. The most effective thing you can do — regardless of budget — is track what you eat. The science consistently shows that awareness of calorie intake is one of the strongest predictors of successful weight loss.</blockquote>
+`},
+{title:'Intermittent Fasting UK 2026: Does It Work, and How Does It Compare to GLP-1?',category:'Comparison',catClass:'cat-blue',emoji:'⏰',bgGrad:'linear-gradient(135deg,#1e3a5f,#3b82f6)',date:'June 2026',readTime:'10 min read',excerpt:'Intermittent fasting has become one of the most popular weight loss strategies in the UK. But how does the evidence actually stack up? And how does it compare to GLP-1 injections like Mounjaro and Wegovy?',content:`
+<p>Intermittent fasting (IF) has gone from fringe biohacking practice to mainstream weight loss strategy over the past decade. Tens of thousands of people in the UK use some form of IF — whether 16:8, 5:2, or alternate day fasting. It\'s free, flexible and backed by a growing body of research. But how effective is it really? And how does it compare to the GLP-1 medications that are now dominating the weight loss conversation in 2026?</p>
+
+<h2>What Is Intermittent Fasting?</h2>
+<p>Intermittent fasting is an umbrella term for eating patterns that cycle between periods of eating and fasting. The most common approaches in the UK are:</p>
+<ul>
+<li><strong>16:8</strong> — eating within an 8-hour window each day (e.g., noon to 8pm) and fasting for the remaining 16 hours. The most widely practised approach.</li>
+<li><strong>5:2</strong> — eating normally 5 days per week and restricting to 500–600 kcal on 2 non-consecutive days. Popularised in the UK by Dr Michael Mosley.</li>
+<li><strong>OMAD (One Meal a Day)</strong> — eating all daily calories in a single meal. More extreme and generally not recommended for most people.</li>
+<li><strong>Alternate Day Fasting (ADF)</strong> — alternating between normal eating days and complete or near-complete fasting days. Most studied approach in clinical trials but least practical for daily life.</li>
+</ul>
+
+<h2>What Does the Evidence Show?</h2>
+
+<h3>Weight Loss Outcomes</h3>
+<p>A 2022 systematic review and meta-analysis published in <em>Annual Review of Nutrition</em> compared intermittent fasting to continuous calorie restriction across 27 trials. The headline finding: <strong>intermittent fasting and continuous calorie restriction produce similar amounts of weight loss when total calorie intake is matched.</strong> Both approaches typically produce 3–8% of body weight loss over 8–24 weeks in clinical trials.</p>
+<p>The practical implication is important: intermittent fasting doesn\'t have a metabolic magic trick. It works primarily by reducing total calorie intake through restricting the eating window — which for most people is easier to stick to than explicit calorie counting. The advantage is behavioural, not metabolic.</p>
+
+<h3>Metabolic Health Effects</h3>
+<p>Beyond weight loss, IF has some interesting metabolic effects that calorie restriction alone may not fully replicate:</p>
+<ul>
+<li><strong>Insulin sensitivity</strong> — fasting periods reduce circulating insulin, which may improve insulin sensitivity over time. This is particularly relevant for people with insulin resistance or type 2 diabetes risk.</li>
+<li><strong>Autophagy</strong> — the process by which cells remove damaged proteins and organelles, which is upregulated during fasting. The clinical significance for weight loss is not well established, but autophagy is associated with broader cellular health benefits.</li>
+<li><strong>Blood lipids</strong> — some trials show modest improvements in triglycerides and LDL cholesterol on IF, comparable to those seen with equivalent calorie restriction.</li>
+</ul>
+
+<h3>Who Does Well with Intermittent Fasting?</h3>
+<p>IF tends to work well for people who:</p>
+<ul>
+<li>Don\'t feel hungry in the morning and naturally skip breakfast</li>
+<li>Find explicit calorie counting tedious or unsustainable</li>
+<li>Have reasonably flexible eating schedules (harder to maintain with shift work or family mealtimes)</li>
+<li>Don\'t have a history of disordered eating (restriction-based approaches can be triggering for some people)</li>
+</ul>
+<p>It tends to work less well for people who experience severe hunger during fasting periods, who compensate by eating larger amounts in the eating window, or who find the social disruption of restricted eating windows stressful.</p>
+
+<h2>Intermittent Fasting vs GLP-1 Medications: A Direct Comparison</h2>
+
+<table style="width:100%;border-collapse:collapse;margin:20px 0">
+<thead><tr style="background:var(--primary);color:white"><th style="padding:10px;text-align:left">Factor</th><th style="padding:10px;text-align:left">Intermittent Fasting</th><th style="padding:10px;text-align:left">Mounjaro (GLP-1)</th></tr></thead>
+<tbody>
+<tr style="background:var(--gray-50)"><td style="padding:10px">Average weight loss (12 months)</td><td style="padding:10px">5–10% body weight</td><td style="padding:10px">~20–22% body weight</td></tr>
+<tr><td style="padding:10px">Mechanism</td><td style="padding:10px">Calorie reduction via eating window</td><td style="padding:10px">Hormonal appetite suppression</td></tr>
+<tr style="background:var(--gray-50)"><td style="padding:10px">Hunger</td><td style="padding:10px">High during fasting periods</td><td style="padding:10px">Significantly reduced</td></tr>
+<tr><td style="padding:10px">Cost</td><td style="padding:10px">Free</td><td style="padding:10px">£133–£340/month</td></tr>
+<tr style="background:var(--gray-50)"><td style="padding:10px">Prescription required</td><td style="padding:10px">No</td><td style="padding:10px">Yes</td></tr>
+<tr><td style="padding:10px">Side effects</td><td style="padding:10px">Hunger, headaches, irritability (early)</td><td style="padding:10px">Nausea, constipation, fatigue (early)</td></tr>
+<tr style="background:var(--gray-50)"><td style="padding:10px">Muscle preservation</td><td style="padding:10px">Moderate concern (especially OMAD)</td><td style="padding:10px">Concern — exercise important</td></tr>
+<tr><td style="padding:10px">Long-term sustainability</td><td style="padding:10px">High (habit-based)</td><td style="padding:10px">Requires ongoing prescription</td></tr>
+</tbody>
+</table>
+
+<h2>Can You Combine Intermittent Fasting with GLP-1 Medications?</h2>
+<p>Yes — and some evidence suggests the combination may be more effective than either alone, primarily because IF further reduces the eating window during which GLP-1\'s appetite-suppressing effects are applied. Several clinical trials in 2024–2025 investigated GLP-1 + time-restricted eating protocols with promising results.</p>
+<p>If you\'re already on Mounjaro or Wegovy and finding you naturally aren\'t hungry until noon, you\'re likely already doing a version of 16:8 without calling it that. Formalising the eating window and ensuring that the eating period is nutritionally dense (especially protein-rich) can enhance outcomes.</p>
+
+<h2>The Bottom Line</h2>
+<p>Intermittent fasting is a legitimate, evidence-based weight loss strategy with a good safety profile and no financial cost. For people with 5–15% of body weight to lose and the self-discipline to maintain an eating window, it\'s an excellent option. It\'s not as powerful as GLP-1 medications for significant obesity — the gap in clinical outcomes is substantial — but it\'s free, sustainable, and beneficial for metabolic health beyond just weight loss. For many people, it\'s the ideal maintenance strategy after achieving initial weight loss goals by other means.</p>
+<blockquote>If you have type 2 diabetes or take medication that requires food at set times (e.g., metformin, insulin, some blood pressure medications), speak to your GP before starting any fasting protocol.</blockquote>
+`},
+{title:'Personal Trainer vs GLP-1 Injections vs Slimming Club UK 2026: Which Gets Results?',category:'Comparison',catClass:'cat-amber',emoji:'🏋️',bgGrad:'linear-gradient(135deg,#431407,#ea580c)',date:'June 2026',readTime:'12 min read',excerpt:'You\'ve got a budget for weight loss. Should you spend it on a personal trainer, a GLP-1 injection prescription, or a slimming club membership? We compare the evidence, costs and real-world outcomes for each.',content:`
+<p>Imagine you have a budget of £150 per month for weight loss. How should you spend it? This is one of the most common weight loss dilemmas in the UK right now, as GLP-1 medications, PT sessions and slimming club memberships all compete for the same slice of disposable income. This guide gives you a head-to-head comparison based on clinical evidence and real-world outcomes.</p>
+
+<h2>The Contenders</h2>
+
+<h3>Personal Trainer (PT)</h3>
+<p><strong>Cost:</strong> £30–£70 per session. At £40/session, a £150/month budget buys approximately 3–4 sessions per month.</p>
+<p>A personal trainer provides personalised exercise programming, technique coaching, accountability, and motivation. Good PTs will also provide nutritional guidance (though dietary prescription is technically the domain of registered dietitians and nutritionists).</p>
+
+<h3>GLP-1 Injection (Mounjaro/Wegovy)</h3>
+<p><strong>Cost:</strong> Mounjaro from £133.19/month (Medino, 2.5mg starting dose), scaling up to £285–£340 at higher doses. Wegovy from £86.39/month (Medino, 0.25mg starting dose).</p>
+<p>GLP-1 receptor agonists work by mimicking gut hormones that signal satiety to the brain, significantly reducing appetite and food intake. They require a weekly self-injection and an ongoing prescription from a registered UK clinician.</p>
+
+<h3>Slimming Club (WW or Slimming World)</h3>
+<p><strong>Cost:</strong> £15–£25/month for weekly in-person group sessions, or £10–£19 for digital-only access.</p>
+<p>Slimming clubs provide a structured eating plan, weekly weigh-ins, and group social support. They are among the most comprehensively studied commercial weight loss interventions in the UK.</p>
+
+<h2>Weight Loss Outcomes: The Evidence</h2>
+
+<h3>Personal Trainer — Weight Loss Outcomes</h3>
+<p>Exercise alone is a surprisingly inefficient weight loss intervention. A landmark 2012 Cochrane review found that exercise without dietary change produces approximately <strong>1.5–3kg of weight loss</strong> over 6–12 months. The reason: exercise increases appetite and most people unconsciously compensate for calories burned through increased food intake.</p>
+<p>PTs who combine exercise programming with nutritional guidance produce better results — typically 4–6% of body weight loss over 6 months for clients following the dietary advice alongside training. However, the variability is large: compliance with both exercise and nutrition is required for meaningful results, and many PT clients don\'t change their diet substantially.</p>
+<p>Where PTs genuinely excel is in building muscle, improving fitness, and maintaining weight loss achieved through other means. The evidence for PTs specifically preventing weight regain and improving body composition (fat:muscle ratio) is much stronger than their evidence for producing initial weight loss.</p>
+
+<h3>GLP-1 Medications — Weight Loss Outcomes</h3>
+<p>The SURMOUNT-1 trial (Mounjaro, maximum dose 15mg): <strong>22.5% mean body weight loss</strong> over 72 weeks. The STEP-1 trial (Wegovy, 2.4mg): <strong>14.9% mean body weight loss</strong> over 68 weeks. These are the largest clinical weight loss outcomes ever demonstrated with a non-surgical intervention.</p>
+<p>For context, if you weigh 90kg (14 stone), 22.5% weight loss = 20kg (3 stone 2lb). At 14.9% weight loss = 13.4kg (2 stone 1lb).</p>
+
+<h3>Slimming Clubs — Weight Loss Outcomes</h3>
+<p>A 2015 meta-analysis in the <em>Annals of Internal Medicine</em> found WW participants lost 2.6% more weight than control groups at 12 months. A 2011 Lancet study comparing WW to brief GP advice found WW participants lost twice as much weight at 12 months (5.1kg vs 2.3kg). Slimming World trials show similar patterns: approximately 5% of body weight at 12 weeks in NHS-referred patients.</p>
+<p>The one-year outcomes for slimming clubs are real but modest compared to GLP-1 medications. However, long-term weight maintenance rates for slimming club completers are reasonably good — particularly for those who maintain attendance beyond the initial programme.</p>
+
+<h2>Head-to-Head Comparison</h2>
+
+<table style="width:100%;border-collapse:collapse;margin:20px 0">
+<thead><tr style="background:var(--primary);color:white"><th style="padding:10px;text-align:left">Factor</th><th style="padding:10px;text-align:left">Personal Trainer</th><th style="padding:10px;text-align:left">GLP-1 Injection</th><th style="padding:10px;text-align:left">Slimming Club</th></tr></thead>
+<tbody>
+<tr style="background:var(--gray-50)"><td style="padding:10px">Average weight loss (12 months)</td><td style="padding:10px">3–6% body weight</td><td style="padding:10px">15–22% body weight</td><td style="padding:10px">4–7% body weight</td></tr>
+<tr><td style="padding:10px">Cost/month</td><td style="padding:10px">£120–£280</td><td style="padding:10px">£87–£340</td><td style="padding:10px">£10–£25</td></tr>
+<tr style="background:var(--gray-50)"><td style="padding:10px">Fitness benefits</td><td style="padding:10px">Excellent</td><td style="padding:10px">None (indirect)</td><td style="padding:10px">Encourages activity</td></tr>
+<tr><td style="padding:10px">Muscle preservation</td><td style="padding:10px">Excellent</td><td style="padding:10px">Poor without exercise</td><td style="padding:10px">Moderate</td></tr>
+<tr style="background:var(--gray-50)"><td style="padding:10px">Social support</td><td style="padding:10px">Individual accountability</td><td style="padding:10px">Online clinician only</td><td style="padding:10px">Strong group support</td></tr>
+<tr><td style="padding:10px">Prescription required</td><td style="padding:10px">No</td><td style="padding:10px">Yes</td><td style="padding:10px">No</td></tr>
+<tr style="background:var(--gray-50)"><td style="padding:10px">Long-term maintenance</td><td style="padding:10px">Good (if habits sustained)</td><td style="padding:10px">Weight returns if stopped</td><td style="padding:10px">Good with continued attendance</td></tr>
+<tr><td style="padding:10px">Best for</td><td style="padding:10px">Fitness + body composition</td><td style="padding:10px">Significant weight loss</td><td style="padding:10px">Behaviour change + community</td></tr>
+</tbody>
+</table>
+
+<h2>The Case for Each</h2>
+
+<h3>Choose a Personal Trainer If:</h3>
+<ul>
+<li>Your primary goal is fitness, body composition and strength rather than just scale weight</li>
+<li>You want to build sustainable exercise habits</li>
+<li>You\'re already eating reasonably well and exercise is the missing piece</li>
+<li>You\'ve lost weight through other means and want help maintaining and toning</li>
+<li>You\'re using GLP-1 medication and want to preserve muscle mass during rapid weight loss</li>
+</ul>
+
+<h3>Choose GLP-1 Medication If:</h3>
+<ul>
+<li>You have significant weight to lose (2+ stone) and have struggled with diet and exercise approaches</li>
+<li>You have a BMI ≥30, or ≥27 with a weight-related condition (type 2 diabetes, hypertension, sleep apnoea)</li>
+<li>Appetite and hunger are the primary barriers to weight loss for you</li>
+<li>You\'re able to afford the ongoing prescription cost</li>
+</ul>
+
+<h3>Choose a Slimming Club If:</h3>
+<ul>
+<li>You are motivated by group accountability and peer support</li>
+<li>Budget is a priority — slimming clubs offer the lowest cost per kg lost of any structured programme</li>
+<li>You want to change eating habits long-term rather than rely on medication or external interventions</li>
+<li>You have a modest amount of weight to lose (under 2 stone) and good motivation</li>
+</ul>
+
+<h2>The Power Move: Combining All Three</h2>
+<p>The best outcomes in the literature come from combining approaches. GLP-1 medications achieve dramatic weight loss, but without exercise, a significant proportion of weight lost is muscle rather than fat. Adding a PT (or structured gym programme) preserves muscle and improves body composition during GLP-1-driven weight loss. A slimming club or structured eating plan addresses food behaviour — ensuring that when GLP-1 medication is eventually tapered, dietary habits can sustain the new weight.</p>
+<p>If budget allows, the evidence-based combination is: GLP-1 medication for appetite management + resistance training (PT or self-directed gym) for muscle preservation + a structured dietary framework (slimming club or calorie tracking app) for long-term habit formation.</p>
+<blockquote>GLP-1 medications require a prescription from a registered UK clinician. Always use a regulated UK pharmacy and ensure you have a proper medical consultation before starting treatment. Weight Loss Compare only lists CQC-registered providers.</blockquote>
 `}
 ];
 
@@ -1129,6 +1813,31 @@ function renderBlog(){const g=document.getElementById('blogGrid');const a=docume
 function openBlog(i){const b=BLOGS[i];const g=document.getElementById('blogGrid');const a=document.getElementById('blogArticle');g.style.display='none';a.style.display='block';a.innerHTML=`<button class="blog-back" onclick="renderBlog()">← Back to all articles</button><div class="blog-article-head"><span class="blog-cat ${b.catClass}">${b.category}</span><h1>${b.title}</h1><div class="blog-article-meta"><span>📅 ${b.date}</span><span>⏱ ${b.readTime}</span><span>✍️ Weight Loss Compare UK</span></div></div><div class="blog-article-body">${b.content}</div>`;const el=document.getElementById('tab-blog');if(el)window.scrollTo({top:el.getBoundingClientRect().top+window.scrollY-80,behavior:'smooth'})}
 
 function switchTab(name,btn){document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));document.getElementById('tab-'+name).classList.add('active');btn.classList.add('active');document.getElementById('filterBar').style.display=(name==='glp1')?'flex':'none';if(name==='meal')renderMealTable();if(name==='clubs')renderClubTable();if(name==='surgery')renderSurgery();if(name==='referrals')renderReferrals()}
+
+// ── CALCULATOR POPUP ────────────────────────────────────────
+function openCalcTab(){
+  closeCalcPopup();
+  const btn=document.querySelector('.tab-btn:nth-child(6)');
+  const calcBtn=[...document.querySelectorAll('.tab-btn')].find(b=>b.textContent.includes('Calculator'));
+  if(calcBtn)switchTab('calc',calcBtn);
+  else window.open('./calculator.html','_blank');
+}
+function closeCalcPopup(){
+  document.getElementById('calcPopup').classList.remove('show');
+  try{localStorage.setItem('calcPopupSeen',Date.now());}catch(e){}
+}
+function maybeShowCalcPopup(){
+  try{
+    const seen=localStorage.getItem('calcPopupSeen');
+    if(seen&&Date.now()-parseInt(seen)<86400000)return; // once per day
+  }catch(e){}
+  setTimeout(()=>{
+    const p=document.getElementById('calcPopup');
+    if(p)p.classList.add('show');
+  },3000);
+}
+document.getElementById('calcPopup').addEventListener('click',function(e){if(e.target===this)closeCalcPopup();});
+maybeShowCalcPopup();
 
 function scrollToEmailForm(){document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));document.getElementById('tab-glp1').classList.add('active');document.querySelector('.tab-btn').classList.add('active');document.getElementById('filterBar').style.display='flex';setTimeout(()=>document.getElementById('inlineEmailWrap').scrollIntoView({behavior:'smooth',block:'center'}),100)}
 
